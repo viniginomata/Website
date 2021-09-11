@@ -1,21 +1,42 @@
+/*******************TAG SELECTORS***********************/
+body {
+  margin: 0;
+  text-align: center;
+}
 
-  body {
-    background-color: #C2FFD9;
-  }
+h1 {
+  margin: 0;
+  font-family: 'Calligraffitti', cursive, sans-serif;
+}
+p {
+ font-family: 'Raleway', sans-serif;
+ font-weight: 600;
 
-  hr{
-    border-color: #F7D59C;
-    border-style:dotted none none;
-    border-top-width: 5px;
-    width: 5%
-  }
-  h1{
-    color: #368B85;
-  }
-  h3{
-    color: #368B85;
-  }
-  a{
-    color: green;
-      text-decoration: none
-    }
+}
+
+/******************** CLASS SELECTORS*******************/
+.top-container {
+  background-color: #D4ECDD;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 9%;
+}
