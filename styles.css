@@ -1,0 +1,44 @@
+/*******************TAG SELECTORS***********************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 500%;
+  margin: 0;
+  font-family: 'Calligraffitti', cursive, sans-serif;
+}
+p {
+ font-family: 'Raleway', sans-serif;
+ font-weight: 600;
+
+}
+
+/******************** CLASS SELECTORS*******************/
+.top-container {
+  background-color: #D4ECDD;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 9%;
+}
