@@ -5,14 +5,24 @@ body {
 }
 
 h1 {
-  margin: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Calligraffitti', cursive, sans-serif;
+  line-height: 2;
 }
-p {
- font-family: 'Raleway', sans-serif;
- font-weight: 600;
 
+h2 {
+ font-family: 'Raleway', sans-serif;
+ font-size: 2.5rem;
+ font-weight: normal;
 }
+h1,h2{
+  color: #66BFBF;
+}
+h3, a {
+  color: #11999E;
+}
+
 
 /******************** CLASS SELECTORS*******************/
 .top-container {
@@ -33,10 +43,11 @@ p {
 
 .bottom-cloud {
   position: absolute;
+  left: 18%;
 }
 
 .top-cloud {
   position: absolute;
-  right: 20%;
+  right: 18%;
   top: 9%;
 }
