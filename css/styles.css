@@ -9,26 +9,27 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Calligraffitti', cursive, sans-serif;
   line-height: 2;
+    color: #38A3A5;
 }
 
 h2 {
  font-family: 'Raleway', sans-serif;
  font-size: 2.5rem;
  font-weight: normal;
+   color: #38A3A5;
 }
-h1,h2{
-  color: #66BFBF;
-}
+
 h3, a {
-  color: #11999E;
+  color: #152D35;
 }
 
 
 /******************** CLASS SELECTORS*******************/
 .top-container {
-  background-color: #D4ECDD;
+  background-color: #93B5C6;
   position: relative;
   padding-top: 100px;
+  height: 100vh;
 }
 
 .middle-container {
@@ -50,4 +51,19 @@ h3, a {
   position: absolute;
   right: 18%;
   top: 9%;
+}
+.bua{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.pc{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+/****************************CLASS SELECTORS******************************/
+#colorparagraph{
+  font-size: 1.2rem;
+  color: #345B63
 }
