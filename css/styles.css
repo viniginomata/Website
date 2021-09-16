@@ -9,44 +9,49 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Calligraffitti', cursive, sans-serif;
   line-height: 2;
-  color: #38A3A5;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color: #38A3A5;
+  color: #66BFBF;
 }
 
 h3, a {
-  color: #152D35;
+  color: #11999E;
 }
 
 p {
   font-size: 1.2rem;
-  color: #345B63
+  color: #40514E;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted none none;
+  border-top-width: 8px;
+  width: 5%;
+  margin: 100px 50% 100px 50%;
+  position: relative;
 }
 
 /******************** CLASS SELECTORS*******************/
 .top-container {
-  background-color: #93B5C6;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
   height: 100vh;
+  margin: 0;
 }
 
 /** .middle-container {
 }
-
-.bottom-container {
-}
 **/
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
 }
 
 .pro {
@@ -64,6 +69,16 @@ p {
   top: 9%;
 }
 
+.profile-image {
+  width: 25%;
+  margin: 50px 0 10px 0;
+}
+
+.colorparagraph {
+  margin: 50px 25% 50px 25%;
+  line-height: 2;
+}
+
 .pc {
   width: 25%;
   float: left;
@@ -74,6 +89,69 @@ p {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.3rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+}
+
+.BUTTON_EGX {
+  background: #479999;
+  background-image: -webkit-linear-gradient(top, #479999, #11999E);
+  background-image: -moz-linear-gradient(top, #479999, #11999E);
+  background-image: -ms-linear-gradient(top, #479999, #11999E);
+  background-image: -o-linear-gradient(top, #479999, #11999E);
+  background-image: -webkit-gradient(to bottom, #479999, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 23px;
+  line-height: 23px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 137px;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 0 1px 20px #0059A0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.BUTTON_EGX:hover {
+  border: solid #11999E 1px;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+  background-image: -moz-linear-gradient(top, #11999E, #11999E);
+  background-image: -ms-linear-gradient(top, #11999E, #11999E);
+  background-image: -o-linear-gradient(top, #11999E, #11999E);
+  background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.bottom-text {
+  line-height: 2;
 }
 
 /****************************CLASS SELECTORS******************************/
